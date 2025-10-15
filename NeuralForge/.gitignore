@@ -1,0 +1,48 @@
+# .NET / C# / Rider
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pp_[Dd]ata/
+
+# Database credentials and connection strings
+appsettings.json
+appsettings.*.json
+!appsettings.Example.json
+
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
