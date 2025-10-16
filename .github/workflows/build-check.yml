@@ -25,4 +25,6 @@ jobs:
         run: dotnet restore
 
       - name: Build project
-        run: dotnet build --configuration Release --no-restore
+        run: |
+          cd NeuralForge
+          dotnet build --configuration Release --no-restore
