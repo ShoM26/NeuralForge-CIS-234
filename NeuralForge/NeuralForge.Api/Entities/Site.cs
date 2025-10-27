@@ -12,6 +12,7 @@ namespace NeuralForge.Api.Entities
         
         [Column("location")]
         [Required]
+        [MaxLength(255)]
         public string Location { get; set; }
         
         [Column("number_of_lines")]
@@ -21,5 +22,7 @@ namespace NeuralForge.Api.Entities
         [Column("chips_per_hour")]
         [Required]
         public int ChipsPerHour { get; set; }
+
+        public ICollection<AssemblyLine> AssemblyLines { get; set; } = new List<AssemblyLine>();
     }   
 }
