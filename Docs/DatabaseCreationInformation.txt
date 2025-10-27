@@ -1,0 +1,11 @@
+make sure your repository is up to date by using "git pull" in the command prompt
+
+run "cd NeuralForge.Api" then "dotnet restore"
+
+create a new file in the NeuralForge.Api directory named "appsettings.Development.json"
+
+find the appsettings.Example.json file and copy the contents
+
+past into your new appsettings.Development.json file and change the User=YOUR_USERNAME and Password=YOUR_PASSWORD to your username and password
+
+run dotnet ef database update
