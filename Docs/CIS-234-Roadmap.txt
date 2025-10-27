@@ -1,0 +1,51 @@
+Neural Forge Database Creation: Merrick Shorter, Alyx Snyder, Antonio Johnson, Carmen Whitson
+
+Rules:
+- All changes to database while developing will be made to the test database until tested to work properly. Then they will be implemented into the production database
+- Every change to a repository file must be made on a feature branch(enforced by github)
+- Ensure database field-names are snake_case 
+- Pull requests are required for merging
+- One other group member should try and review pull request before it is merged into main
+- commit messages should follow this format: "<type>(<branch name>): <message detailing what has changed in the files committed>" 
+examples of commit types: 
+feat: new feature 
+fix: fix to a feature or bug 
+nit: minor change to comment or something that does not change the output of the code
+
+
+Tasks:
+
+Merrick Shorter:
+- Create basic c# backend with APIs for data insertion and fetching
+- Create Tables using Entity Framework Core(safe from sql injections)
+- Take json formatted data in python script and call c# backend to insert into the database
+- Document backend creation and api integration
+- Prepare slides about your role in the process for presentation
+
+Alyx Snyder:
+- Define helpful KPIs/which metrics need to be aggregated from raw data(in prep)
+- Decide what Neural Forge wants to see by drafting dashboard mockups (paper, figma, lucidchart)
+- Have notes or documentation on the above tasks to present at the end of the project
+- Write data dictionary for executives and final presentation
+- Once there is some data apply plans to process data using Tableau Prep
+- Once data is processed apply dashboard plans in Tableau Desktop
+- Collect all documentation for final presentation
+
+Antonio Johnson:
+- Create ER diagram
+- Work on mock data generator in colab(python) making sure data is believable and collected in a json format
+- Write comments on code where necessary to explain to future developers
+- Prepare slides about your role in the process for the final presentation
+
+Carmen Whitson:
+- Create relation based on ER diagram
+- Insert SQL into sites, lines, and chips(Manual, believeable data)(save sql script files for documentation later)
+- Write a short document with the thought process behind why you inserted the data that you did (eg. I inserted 12 sites in the sites table because our RFP document said we had 12 plants)
+- Prepare slides about your role in the process for the final presentation
+
+Schema:
+sites - each manufacturing plant
+assembly_lines - all of the lines for all sites
+chips - all the chips manufactured
+production_records - hourly sum totals of chips made
+downtime_events - start-end and reasoning why production was affected
