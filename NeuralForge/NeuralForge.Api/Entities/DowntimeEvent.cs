@@ -23,10 +23,15 @@ namespace NeuralForge.Api.Entities
         public DateTime EndTime { get; set; }
     
         [Column("event_type")]
-        public string? EventType { get; set; }
+        public EventType? EventType { get; set; }
         
-        public required AssemblyLine AssemblyLine { get; set; }
-        
-        public required Chip Chip { get; set; }
+        public AssemblyLine AssemblyLine { get; set; }
     }
+}
+
+public enum EventType
+{
+    PowerLost=1,
+    Maintenance=2,
+    RoutineCleaning=3
 }

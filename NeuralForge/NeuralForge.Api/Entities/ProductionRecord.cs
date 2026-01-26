@@ -22,8 +22,6 @@ namespace NeuralForge.Api.Entities
         [Required]
         public DateTime HourOfDay { get; set; }
         
-        public required AssemblyLine AssemblyLine { get; set; }
-        
-        public required Chip Chip { get; set; }
+        public AssemblyLine AssemblyLine { get; set; }
     }
 }
