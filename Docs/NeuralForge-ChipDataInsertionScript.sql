@@ -1,0 +1,9 @@
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i5.processor.14501E', '8960', '5.9', '743.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i5.processor.14401E', '6144', '3.7', '685.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i7.processor.14701E', '3840', '2.3', '519.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i7.processor.14700F', '4608', '3.4', '557.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Gold.processor', '1540', '2.4', '223.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Silver.processor', '2148', '2.6', '267.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i9.processor.14901E', '10752', '6.4', '936.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i9.processor.14901KS', '21760', '8.1', '1255.99');
+Insert into neural_forge_prod.chips (chip_name, number_of_cores, production_time, market_price) Values ('NF.Core.i9.processor.1400', '2560', '3.2', '494.99');

@@ -1,0 +1,12 @@
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('New Albany, OH', '8', '400');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Arona, PA', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Raymond City, WV', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Mt Sterling, KY', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Bedford, IN', '6' ,  '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Thomasboro, IL', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Portage, MI', '8', '400');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Chipewa Falls, WI', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Appleton, WI', '6', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Paynesville, MN', '4', '300');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Canova, SD', '4', '200');
+Insert into neural_forge_prod.sites (location, number_of_lines, chips_per_hour) Values ('Lincoln, ND', '4', '200');
