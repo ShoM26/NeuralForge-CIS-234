@@ -66,6 +66,7 @@ Add a new migration	dotnet ef migrations add <name>
 Run backend	dotnet run
 Run mock data script	python generate_mock_data.py
 View running API	http://localhost:5000/swagger
+
 🧱 7. Project Rules & Standards
 These rules keep our workflow clean and professional:
 
